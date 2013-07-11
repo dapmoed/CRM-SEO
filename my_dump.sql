@@ -39,7 +39,7 @@ LOCK TABLES `test_table_d` WRITE;
 INSERT INTO `test_table_d` VALUES (1,'sdfigsoifdhug',2);
 INSERT INTO `test_table_d` VALUES (2,'fdlighspfioh',5456);
 INSERT INTO `test_table_d` VALUES (3,'drsogdfpogij',789);
-INSERT INTO `test_table_d` VALUES (4,NULL,NULL);
+INSERT INTO `test_table_d` VALUES (4,'sdfgdf',352);
 /*!40000 ALTER TABLE `test_table_d` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-07-11 13:17:11
+-- Dump completed on 2013-07-11 13:17:30
