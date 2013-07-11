@@ -27,7 +27,7 @@ CREATE TABLE `test_table_d` (
   `text` text,
   `count` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,6 +40,7 @@ INSERT INTO `test_table_d` VALUES (1,'sdfigsoifdhug',2);
 INSERT INTO `test_table_d` VALUES (2,'fdlighspfioh',5456);
 INSERT INTO `test_table_d` VALUES (3,'drsogdfpogij',789);
 INSERT INTO `test_table_d` VALUES (4,'sdfgdf',352);
+INSERT INTO `test_table_d` VALUES (5,'fdsgdfg',425);
 /*!40000 ALTER TABLE `test_table_d` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-07-11 13:24:23
+-- Dump completed on 2013-07-11 13:27:06
