@@ -29,16 +29,6 @@ CREATE TABLE `test_table_d` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `test_table_d`
---
-
-LOCK TABLES `test_table_d` WRITE;
-/*!40000 ALTER TABLE `test_table_d` DISABLE KEYS */;
-INSERT INTO `test_table_d` VALUES (1,'sdfigsoifdhug',2),(2,'fdlighspfioh',5456),(3,'drsogdfpogij',789),(4,'sdfgdf',352),(5,'fdsgdfg',425);
-/*!40000 ALTER TABLE `test_table_d` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
